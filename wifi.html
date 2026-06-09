@@ -11,6 +11,29 @@ if (location.protocol === 'http:' && location.host === 'xmhx1.top') {
 <title>校园WiFi实测 — 厦门华厦学院新生攻略</title>
 <meta name="description" content="厦门华厦学院校园网WiFi真实测速：下载速度、玩游戏延迟、看视频流畅度实测数据。校园网络情况全揭秘。">
 <link rel="stylesheet" href="style.css">
+<style>
+  .hero-card { background: linear-gradient(135deg, #f59e0b, #ef4444); color: #fff; border-radius: 16px; padding: 40px 32px; text-align: center; margin: 24px 0; box-shadow: 0 10px 30px rgba(239,68,68,.25); }
+  .hero-card h2 { font-size: 28px; margin-bottom: 8px; color: #fff; }
+  .hero-card .price { font-size: 56px; font-weight: 900; margin: 16px 0 4px; }
+  .hero-card .price small { font-size: 20px; font-weight: 500; }
+  .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin: 24px 0; }
+  .feature-item { background: #fff; border-radius: 12px; padding: 20px 16px; text-align: center; border: 1px solid #e2e8f0; transition: transform .2s; }
+  .feature-item:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,.08); }
+  .feature-item .icon { font-size: 36px; margin-bottom: 8px; }
+  .feature-item h4 { font-size: 16px; color: #1e293b; margin-bottom: 4px; }
+  .feature-item p { font-size: 13px; color: #64748b; }
+  .perk-list { list-style: none; padding: 0; }
+  .perk-list li { padding: 12px 16px; margin: 8px 0; background: #fef3c7; border-radius: 10px; font-size: 15px; border-left: 4px solid #f59e0b; }
+  .claude-section { background: linear-gradient(135deg, #d97706, #b45309); color: #fff; border-radius: 16px; padding: 36px 28px; text-align: center; margin: 30px 0; box-shadow: 0 10px 30px rgba(180,83,9,.3); }
+  .claude-section h2 { color: #fff; font-size: 26px; margin-bottom: 12px; }
+  .claude-section img { max-width: 350px; border-radius: 12px; margin: 16px auto; display: block; }
+  .claude-section p { opacity: .92; line-height: 1.8; }
+  .wechat-cta { background: linear-gradient(135deg, #07c160, #06ad56); color: #fff; border-radius: 16px; padding: 28px; text-align: center; margin: 24px 0; }
+  .wechat-cta h3 { color: #fff; font-size: 22px; }
+  .wechat-cta .wx-num { font-size: 28px; font-weight: 900; letter-spacing: 2px; margin: 12px 0; }
+  .urgency-badge { display: inline-block; background: #ef4444; color: #fff; font-size: 12px; padding: 4px 10px; border-radius: 20px; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .6; } }
+</style>
 </head>
 <body>
 
@@ -57,21 +80,84 @@ if (location.protocol === 'http:' && location.host === 'xmhx1.top') {
       <tr><td>宿舍多人同时用</td><td>❌ 直接瘫痪</td><td class="highlight">✅ 每人独立不互抢</td></tr>
     </table>
 
-    <h3>💡 怎么办？</h3>
-    <p>校园网不给力的话，很多同学会自己搞个<b>大流量的手机卡</b>当热点用。我整理了一下目前身边同学在用的情况：</p>
+    <!-- ====== 校园卡推荐 ====== -->
+    <div class="hero-card" style="margin-top:36px;">
+      <span class="urgency-badge">🔥 2026新生专属</span>
+      <h2>🏪 移动校园卡 · 终极解决方案</h2>
+      <div class="price">49<span style="font-size:28px;">元/月</span></div>
+      <p style="font-size:16px;opacity:.95;">一张卡解决大学四年上网问题</p>
+      <p style="opacity:.8;font-size:14px;">宿舍网速不行？打游戏老是460？看网课一直缓冲？<br>这张卡就是你的救星 ⚡</p>
+    </div>
 
-    <div class="info-box tip">
-      <h4>🌟 参考一下</h4>
-      <p><strong>月费 29 元 = 300GB 全国通用 + 100分钟通话</strong><br>
-      没有强制绑定时长 · 5G速度 · 全国各地都能用</p>
-      <p>比校门口拉人的那些划算多了<br>
-      <strong>一年能少花四五百块 🍲</strong></p>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <div class="icon">🌐</div>
+        <h4>230G 超大流量</h4>
+        <p>150G全国通用 + 30G定向 + 首年送50G专网<br>用不完还能<strong>囤到下个月</strong>！</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">📞</div>
+        <h4>3500分钟通话</h4>
+        <p>跟家人朋友随便聊<br>再也不怕话费超了</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">💬</div>
+        <h4>2500条短信</h4>
+        <p>免费短信随便发</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">🏫</div>
+        <h4>省内移动互打免费</h4>
+        <p>室友之间打电话全免费<br>不管打多久都行！</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">📡</div>
+        <h4>四年免费宽带</h4>
+        <p>宽带白送！</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">🚀</div>
+        <h4>5G 高速网络</h4>
+        <p>宿舍开热点打游戏<br>从此告别460延迟</p>
+      </div>
+    </div>
+
+    <h3 style="text-align:center;">🎁 学姐学长自费额外福利</h3>
+    <ul class="perk-list">
+      <li>🆓 <strong>免费安装校园宽带</strong> — 不用自己折腾路由器</li>
+      <li>🚌 <strong>出行五折卡</strong> — 公交、地铁、BRT通通打五折！每个月省好几十！</li>
+      <li>💰 <strong>后续免费送话费活动</strong> — 办了卡不是终点，后续福利不断</li>
+      <li>📚 <strong>CET英语四六级、考研资料（纸质版）和四六级网课免费赠送！</strong></li>
+      <li>💼 <strong>提供免费兼职机会、创业机会！</strong> — 帮你大学就能赚钱</li>
+      <li>🚗 <strong>送驾校报名优惠券！</strong> — 大学考驾照省钱</li>
+    </ul>
+
+    <div class="wechat-cta">
+      <h3>📲 想办卡？加微信直接问我</h3>
+      <p style="opacity:.9;">不是客服，是学姐学长本人，有什么问题随便问<br>不合适就算了，绝不强推 😊</p>
+      <div class="wx-num">📱 18250703320</div>
+      <p style="font-size:13px;opacity:.8;">备注"新生办卡"我就知道了</p>
+    </div>
+
+    <!-- ====== Claude AI Section ====== -->
+    <div class="claude-section">
+      <h2>🤖 特别推荐：Claude AI — 大学生必备效率工具</h2>
+      <img src="claude-ai.png" alt="Claude AI 智能助手">
+      <p style="font-size:16px;margin-top:16px;">
+        <strong>什么是Claude AI？</strong><br>
+        Claude是Anthropic公司开发的先进AI助手，能帮你<strong>写论文、做翻译、编程、整理笔记、分析数据</strong>，几乎是大学生最强大的学习搭档。<br><br>
+        <strong>大学生能用Claude做什么？</strong><br>
+        📝 写论文大纲和初稿 | 🔬 实验数据分析 | 💻 编程debug | 📖 英文文献翻译 | 📊 PPT内容生成 | 📋 期末复习提纲整理<br><br>
+        有了<strong>大流量校园卡</strong> + <strong>Claude AI</strong>，学习和生活效率直接拉满！流量够用才能随时随地打开AI工具。<br><br>
+        对Claude AI感兴趣？加微信一起交流使用技巧！👇
+      </p>
     </div>
 
     <div class="cta-section">
-      <h3>🎯 别让网速拖后腿</h3>
-      <p>四年大学生活，网速慢真的很影响心情<br>可以加我微信聊聊，我帮你看哪种比较合适</p>
-      <a href="card.html" class="btn btn-lg">📱 点这里看看详情 →</a>
+      <h3>📩 一张卡 + 一个好工具 = 高质量大学生活</h3>
+      <p>校园卡解决流量焦虑 · Claude AI提升学习效率<br>加微信，学姐学长帮你搞定</p>
+      <p style="font-size:22px;font-weight:700;">👇 微信：18250703320 👇</p>
+      <p style="font-size:13px;opacity:.85;">备注"新生"即可 · 校园卡和AI工具都可以聊</p>
     </div>
 
   </div>
